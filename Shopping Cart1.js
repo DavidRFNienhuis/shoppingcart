@@ -123,10 +123,10 @@ const Products = (props) => {
 
   let list = items.map((item, index) => {
     let n = index + 1049;
-    let uhit = photos;
+    
     return (
       <li key={index}>
-        <Image src={uhit} width={70} roundedCircle></Image>
+        <Image src={photos} width={70} roundedCircle></Image>
         <Button variant="primary" size="large">
           {item.name}:${item.cost}-Stock={item.instock}
         </Button>
