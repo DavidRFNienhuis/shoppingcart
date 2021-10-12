@@ -123,7 +123,7 @@ const Products = (props) => {
 
   let list = items.map((item, index) => {
     let n = index + 1049;
-    let uhit = "https://picsum.photos/" + n;
+    let uhit = photos;
     return (
       <li key={index}>
         <Image src={uhit} width={70} roundedCircle></Image>
